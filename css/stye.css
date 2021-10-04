@@ -17,7 +17,8 @@ body{
 .header__nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    align-items: center;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .header__list{
@@ -35,4 +36,69 @@ body{
 }
 .logo__img{
     width: 130px;
+}
+.header__btns{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.header__btn{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #0B3B3C;
+    text-decoration: none;
+}
+.intro{
+    background: url(../img/intro__bg.png) center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: relative;
+}
+.intro__body{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+}
+.intro__btns{
+    display: flex;
+    flex-direction:column;
+    row-gap: 35px;
+    margin: 35px  auto;
+    max-width: 350px;
+}
+.intro__title{
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    color: #0B3B3C;
+}
+.intro__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B3B3C;
+    max-width: 480px;
+    margin: 25px auto;
+}
+.intro__btn{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #7E0707;
+    text-decoration: none;
+    padding: 15px 0;
+    border: 2px solid #7E0707;
+    transition: 500ms ease;
+}
+.intro__btn:hover{
+    background:#7E0707;
+    color: #fff;
 }
