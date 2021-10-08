@@ -102,6 +102,7 @@ body{
     background:#7E0707;
     color: #fff;
 }
+.
 .adventages{
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);    
     margin-bottom: 50px;
@@ -116,6 +117,11 @@ body{
 .adventages__top{
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     margin-bottom: 90px;
+}
+.adventages-top__item{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
 }
 .adventages-btm__top{
     display: flex;
@@ -223,6 +229,7 @@ body{
 .methods{
     background: #E8EFE9;
     padding: 50px;
+    margin-bottom: 40px;
 }
 .methods__body{
     display: flex;
@@ -268,7 +275,7 @@ body{
     color: #FFFFFF;
     text-decoration: none;
     padding: 15px 100px;
-    background: #BDCDC5;
+    background: #7E0707;
 }
 .methods__right{
     display: flex;
@@ -282,4 +289,60 @@ body{
     text-align: center;
     padding: 20px 40px;
     background: #fff;
+}
+.methods__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 55px;
+}
+.methods-item__text{
+    font-size: 13px;
+    line-height: 29px;
+    color: #0B3B3C;
+}
+.methods-item__icon{
+    font-size: 12px;
+}
+.methods-right__title{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0B3B3C;
+}
+.profile{
+    margin-bottom: 105px;
+}
+.profile__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profile__text{
+    font-size: 18px;
+    line-height: 32px
+    text-align: center;
+    color: #0B3B3C;
+    margin-bottom: 10px;
+}
+.profile__title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B3B3C;
+    margin-bottom: 30px;
+}
+.profile__icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.profile-star__title{
+    font-weight: 500;
+    margin-right: 7px;
+    margin-left: 7px;
 }
