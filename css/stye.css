@@ -60,9 +60,9 @@ body{
 }
 .intro__body{
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 .intro__btns{
@@ -102,7 +102,6 @@ body{
     background:#7E0707;
     color: #fff;
 }
-.
 .adventages{
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);    
     margin-bottom: 50px;
@@ -345,4 +344,83 @@ body{
     font-weight: 500;
     margin-right: 7px;
     margin-left: 7px;
+}
+.team__title{
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #0B3B3C;
+    margin-bottom: 50px;
+}
+.team__text{
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    color: #0B3B3C;
+    width: 820px;
+    margin: 0 auto 30px auto;
+}
+.team__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-item__title{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #0B3B3C;
+    margin-top: 35px;
+}
+.team-item__text{
+    color: #91AB9F;
+}
+.team__content{
+    border-bottom: 1px solid #BDCDC5;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.team-btm__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.team-btm__right{
+    display: flex;
+    align-items: center;
+}
+.team-btm__phone-icon{
+    font-size: 30px;    
+    color: #D2DADA;
+    border: 1px solid #7b7e7e;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.team-btm__title{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: 0.72px;
+    color: #0B3B3C;
+}
+.team-btm__text{
+    font-size: 15px;
+    line-height: 29px;
+    color: #91AB9F;
+}
+.team-btm__btn{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 70px;
+    background: #7E0707;
 }
