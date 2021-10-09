@@ -424,3 +424,119 @@ body{
     padding: 15px 70px;
     background: #7E0707;
 }
+.comment__top{
+    background: url(../img/comment__img.png) no-repeat;
+    background-size: cover;
+    background-position:  center;
+    height: 90vh;
+    width: 100%;
+    position: relative;;
+}
+.comment__texts{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10% -50%);
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.comment__text{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.comment__title{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.comment__btm{
+    background: #F3F7F4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.comment__btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.comment__btn{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 70px;
+    background: #7E0707;
+    border: 2px solid #7E0707;
+}
+.experts{
+    margin-bottom: 100px;
+}
+.experts__content{
+    display: flex;
+    justify-content: space-between;
+}
+.experts__item{
+    max-width: 260px;
+    width: 100%;
+}
+.experts-item__img{
+    width: 260px;
+}
+.experts__title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #0B3B3C;
+    margin-bottom: 36px;
+}
+.experts__text{
+    font-size: 23px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    color: #0B3B3C;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto 35px auto;
+}
+.experts-item__text{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: #0B3B3C;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.experts-item__btn{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #0B3B3C;
+    text-decoration: none;
+}
+.experts-item__btn::after{
+    content: '';
+    background: #0B3B3C;
+    width: 100px;
+    height: 2px;
+    display: block;
+}
