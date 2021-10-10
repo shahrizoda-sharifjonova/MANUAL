@@ -275,6 +275,10 @@ body{
     text-decoration: none;
     padding: 15px 100px;
     background: #7E0707;
+    transition: 500ms ease;
+}
+.methods-btm__btn:hover{
+    background: #0B3B3C;
 }
 .methods__right{
     display: flex;
@@ -423,6 +427,10 @@ body{
     text-decoration: none;
     padding: 15px 70px;
     background: #7E0707;
+    transition: 500ms ease;
+}
+.team-btm__btn:hover{
+    background: #0B3B3C;
 }
 .comment__top{
     background: url(../img/comment__img.png) no-repeat;
@@ -481,6 +489,10 @@ body{
     padding: 15px 70px;
     background: #7E0707;
     border: 2px solid #7E0707;
+    transition: 500ms ease;
+}
+.comment__btn:hover{
+    background: #0B3B3C;
 }
 .experts{
     margin-bottom: 100px;
